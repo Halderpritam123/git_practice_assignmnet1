@@ -4,8 +4,8 @@ let factor=0;
 	if(N%i==0){
 	factor++;
 	}
-    }
-     if(factor==2){
+ }
+  if(factor==2){
 	console.log("prime no");
 	}else{
 	console.log("Non Prime");
