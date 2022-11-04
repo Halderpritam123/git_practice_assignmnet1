@@ -1,11 +1,11 @@
 function primeNo(N){
-let count=0;
+let factor=0;
    for(let i=1;i<=N;i++){
-	if(N%i){
-	count++;
+	if(N%i==0){
+	factor++;
 	}
     }
-     if(){
+     if(factor==2){
 	console.log("prime no");
 	}else{
 	console.log("Non Prime");
